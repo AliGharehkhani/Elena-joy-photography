@@ -199,7 +199,11 @@ nav {
   background: var(--background-color);
   flex: 2 1 40rem;
   justify-content: space-around;
-  padding-left: 5rem;
+  
+}
+
+.about-text div{
+  padding: 3rem 8rem ;
 }
 
 .about-image{
@@ -207,8 +211,19 @@ nav {
   flex: 1 1 40rem;
 }
 
+.about-text h3{
+  padding: 2rem 0rem;
+  font-family: "Ruhl Medium";
+}
+
+.about-text h2{
+  font-family: "vibes";
+  padding: 4rem;
+}
+
 .about-image h5{
   position: absolute;
+  letter-spacing: 2rem;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -20%);
@@ -281,6 +296,11 @@ nav {
   .menu-check:checked ~ .burger span:nth-child(3) {
     transform: rotateZ(-45deg) translateY(-300%);
   }
+
+    /* About section */
+    .about-text div{
+      padding: 3rem 3rem ;
+    }
 }
 
 @media screen and (min-width: 906px) {
@@ -288,4 +308,5 @@ nav {
   .menu-check {
     display: none;
   }
+
 }
